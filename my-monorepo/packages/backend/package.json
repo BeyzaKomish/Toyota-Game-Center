@@ -1,0 +1,12 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "cookie-parser": "^1.4.7",
+        "express": "^4.21.2",
+        "express-session": "^1.18.1",
+        "memorystore": "^1.6.7"
+    }
+}
