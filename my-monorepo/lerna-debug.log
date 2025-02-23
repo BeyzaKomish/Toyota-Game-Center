@@ -1,0 +1,21 @@
+0 silly argv {
+0 silly argv   _: [ 'list' ],
+0 silly argv   lernaVersion: '8.1.8',
+0 silly argv   '$0': '..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v8.1.8
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["apps/*","packages/*"]
+3 verbose rootPath C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo
+4 error - packages/tombala-game/package.json: Error: ValueExpected in C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo\packages\tombala-game\package.json at 1:1
+4 error   > 1 |
+4 error       | ^
+4 error
+4 error       at parseJson (C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo\node_modules\nx\src\utils\json.js:29:15)
+4 error       at readJsonFile (C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo\node_modules\nx\src\utils\fileutils.js:32:37)
+4 error       at createNodeFromPackageJson (C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo\node_modules\nx\src\plugins\package-json\create-nodes.js:82:47)
+4 error       at C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo\node_modules\nx\src\plugins\package-json\create-nodes.js:39:20
+4 error       at C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo\node_modules\nx\src\project-graph\plugins\utils.js:10:33
+4 error       at Array.map (<anonymous>)
+4 error       at createNodesFromFiles (C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo\node_modules\nx\src\project-graph\plugins\utils.js:8:35)
+4 error       at exports.createNodesV2 (C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo\node_modules\nx\src\plugins\package-json\create-nodes.js:33:51)
+4 error       at LoadedNxPlugin.createNodes (C:\Users\beyza\OneDrive\Desktop\toyota-game-center\my-monorepo\node_modules\nx\src\project-graph\plugins\loaded-nx-plugin.js:26:65)
